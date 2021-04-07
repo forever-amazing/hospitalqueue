@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none
+}
+
+header {
+    background-color: #f1f4f8;
+}
+
+header p {
+    padding-left: 50px;
+}
+
+header p a {
+    color: #09bb07;
+}
+
+
+h1 {
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 3px solid #09bb07;
+}
+
+.wrap .nav {
+    float: left;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: #09bb07;
+}
+
+.wrap .nav a {
+    display: block;
+    padding: 50px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    border-left: 3px solid #09bb07;
+    color: #fff;
+}
+
+.wrap .nav a:hover {
+    color: #09bb07;
+    background-color: #fff;
+    border-left: 3px solid #ff9c00;
+}
+
+.wrap .main {
+    float: right;
+    width: 900px;
+    height: 500px;
+    border: 3px solid #09bb07;
+    border-top: none;
+
+}
+
+.wrap .main .option {
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 3px solid #09bb07;
+}
+.wrap .main .option a{
+    font-size: 20px;
+    color: #000;
+}
+.wrap.main.content{
+    padding:15px;
+    line-height:28px;
+}
+
+.wrap .main .option a:hover {
+    border-bottom: 3px solid #ff9c00;
+}
+
+/* altrowstable */
+
+table.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.altrowstable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.altrowstable td.operate{
+    padding: 0;
+}
+.oddrowcolor{
+    background-color:#d4e3e5;
+}
+.evenrowcolor{
+    background-color:#c3dde0;
+}
+/* /altrowstable */
+
+/* hovertable */
+table.hovertable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+table.hovertable th {
+    background-color:#c3dde0;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.hovertable tr {
+    background-color:#d4e3e5;
+}
+table.hovertable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+
+/* /hovertable */
+
+
+/*分页处---barcon大小*/
+.barcon {
+    width: 900px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.barcon1 {
+    font-size: 16px;
+    float: left;
+    margin-top: 20px;
+}
+.barcon2 {
+    float: right;
+    width: 300px;
+}
+.barcon2 ul {
+    margin: 15px 0;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+.barcon2 li {
+    display: block;
+    float: left;
+}
+.barcon2 img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    background-color: #fff;
+}
+
+.barcon2 select{
+    margin-top: 5px;
+}
+.barcon2 img:hover{
+    background-color: #eee;
+}
+/*规定其透明度（0-1）（透明-清晰）*/
+.ban {
+    opacity: 0.5;
+}
+td img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+}
+td img:hover{
+    opacity:0.5;
+    box-shadow:2px 2px 5px #000;
+}
+td img:active{
+    box-shadow:inset 2px 2px 10px #000;
+}
+input[type="text"],input[type="password"]{
+    border-radius:5px;
+    height:22px;
+}
